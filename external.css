@@ -1,13 +1,22 @@
-.item {
-    width: 100px;
-    height: 100px;
+.grid {
+  display: grid;
+  grid-template-rows: repeat(5, 50px);
+  grid-template-columns: repeat(5, 50px);
+  gap: 5px;
 }
 .blue {
-  background-color: blue;
+  background-color: cornflowerblue;
+  grid-row: 1;
+  grid-column: 1/6;
 }
 .green {
-  background-color: green;
+  background-color: lightgreen;
+}
+.dark_green {
+    background-color: forestgreen;
 }
 .gray {
-  background-color: gray;
+  background-color: lightgray;
+  grid-row: 2;
+  grid-column: 1/2;
 }
