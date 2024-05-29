@@ -1,22 +1,24 @@
+html {
+  background-color: gray;
+}
 .grid {
   display: grid;
-  grid-template-rows: repeat(5, 50px);
-  grid-template-columns: repeat(5, 50px);
-  gap: 5px;
+  width: 300px;
+  height: 200px;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 30% 50% 10%;
+  gap: 5%;
 }
-.blue {
-  background-color: cornflowerblue;
-  grid-row: 1;
-  grid-column: 1/6;
+.sky {
+  background-color: skyblue;
 }
-.green {
-  background-color: lightgreen;
-}
-.dark_green {
-    background-color: forestgreen;
-}
-.gray {
-  background-color: lightgray;
+.big_sky {
+  background-color: skyblue;
   grid-row: 2;
-  grid-column: 1/2;
+  grid-column: 1/4;
+}
+.ground {
+  background-color: wheat;
+  grid-row: 3;
+  grid-column: 1/4;
 }
